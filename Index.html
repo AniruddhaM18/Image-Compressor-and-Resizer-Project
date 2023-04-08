@@ -1,0 +1,88 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Resizer JavaScript</title>
+    <link rel="stylesheet" href="/Users/anirudhhamaradwar/Desktop/Project/IMGSRC/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Users/anirudhhamaradwar/Desktop/Project/IMGSRC/script.js" defer></script>
+  </head>
+  <body>
+    <style>
+      .heading-container {
+        padding: 20px;
+        background-color: #eee;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        vertical-align:top;
+        color:#19194d;
+        font-family: Arial,Helvetica,sans-serif;
+        width: 450px;
+        height: 120px;
+        padding: 12px;
+      }
+      h1 {
+        margin: 0;
+      }
+    </style>
+    <div class="heading-container">
+      <h1>IMAGE RESIZER & COMPRESSOR</h1>
+    </div>
+    <br>
+    <br>
+    <div class="wrapper">
+      <div class="upload-box">
+        <input type="file" accept="image/*" hidden>
+        <img src="https://www.codingnepalweb.com/demos/resize-and-compress-image-javascript/upload-icon.svg" alt="">
+        <p>Browse File to Upload</p>
+      </div>
+      <div class="content">
+        <div class="row sizes">
+          <div class="column width">
+            <label>Width</label>
+            <input type="number">
+          </div>
+          <div class="column height">
+            <label>Height</label>
+            <input type="number">
+          </div>
+        </div>
+        <div class="row checkboxes">
+          <div class="column ratio">
+            <input type="checkbox" id="ratio" checked>
+            <label for="ratio">Lock aspect ratio</label>
+          </div>
+          <div class="column quality">
+            <input type="checkbox" id="quality">
+            <label for="quality">Compress</label>
+          </div>
+        </div>
+        <button class="download-btn">Download Image</button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <style>
+      .footer-container {
+        padding: 20px;
+        background-color: #eee;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        vertical-align:top;
+        color:#19194d;
+        font-family: Arial,Helvetica,sans-serif;
+        width: 450px;
+        height: 75px;
+        padding: 18px;
+      }
+      h2 {
+        margin: 0;
+      }
+    </style>
+    <div class="footer-container">
+      <h2>Built by Aniruddha</h2>
+    </div>
+
+  </body>
+</html>
